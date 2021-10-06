@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/jizhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:text="记帐"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/jizhang"
+        android:id="@+id/layout"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="7dp">
+        <TextView
+        android:id="@+id/shang"
+        android:layout_width="90dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:background="#F0F0F0"
+        android:text="收入"/>
+        <TextView
+         android:layout_width="90dp"
+        android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/zhichu"
+        android:text="支出"
+        android:background="#F0F0F0" />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:id="@+id/line1name"
+            android:gravity="center"
+            android:text="余额"
+            android:background="#F0F0F0"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout"
+        android:layout_marginLeft="24dp">
+    <TextView
+        android:id="@+id/shang2"
+        android:layout_width="90dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:background="#F0F0F0"
+        android:text="20000"/>
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/zhichu2"
+        android:text="10000"
+        android:background="#F0F0F0" />
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:id="@+id/line1name3"
+        android:gravity="center"
+        android:text="300000"
+        android:background="#F0F0F0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/layout2">
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/zhichu3"
+            android:text="服饰"
+            android:background="#F0F0F0" />
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:id="@+id/line1name4"
+            android:gravity="center"
+            android:text="300"
+            android:background="#F0F0F0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/layout3"
+        android:layout_below="@id/layout2"
+        android:layout_marginLeft="24dp">
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/zhichu4"
+        android:text="餐饮"
+        android:background="#F0F0F0" />
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:id="@+id/line1name5"
+        android:gravity="center"
+        android:text="3000000000"
+        android:background="#F0F0F0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:id="@+id/layout4"
+        android:layout_below="@id/layout3"
+        android:layout_marginLeft="24dp">
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:id="@+id/zhichu6"
+            android:text="奖金"
+            android:background="#F0F0F0" />
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+            android:id="@+id/line1name6"
+            android:gravity="center"
+            android:text="-989999"
+            android:background="#F0F0F0"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp">
+
+        <ImageButton
+            android:id="@+id/tianjiaanniu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ADD" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F0F0F0"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true">
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Grey_1"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Grey_2"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Grey_3"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Blue_4"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Grey_5"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
